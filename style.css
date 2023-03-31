@@ -1,3 +1,58 @@
 a {
-    color: black;
+  color: white;
+}
+
+body{
+    margin: 0;
+}
+
+h3{
+    color: white;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#container {
+  background-image: url("./image/bg-homepage.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  width: 100vw;
+  height: 80vh;
+  display: block;
+}
+
+#navbar {
+  width: 100vw;
+  height: 80vh;
+  background-image: linear-gradient(black, transparent, black);
+}
+
+.img-size {
+  width: 100px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+#btn-signin {
+  color: white;
+  padding: 8px 15px;
+  background-color: red;
+  border-radius: 10px;
+}
+.flex-container-2 {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
